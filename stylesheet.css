@@ -1,3 +1,8 @@
+*{
+    box-sizing:border-box
+}
+
+
 body{
     margin:0;
     font-family:"Hiragino kaku Gothic ProN";
@@ -7,8 +12,13 @@ a{
     text-decoration:none;
 }
 
+.clear{
+    clear:left;
+}
+
 .container{
-    width:1170px;
+    max-width: 1170px;
+    width:100%;
     padding:0 15px;
     margin:0 auto;
 }
@@ -32,7 +42,8 @@ a{
 }
 
 .btn-wrapper{
-    margin: 20px 0;
+    text-align:center;
+    margin:20px 0;
 }
 
 .btn-wrapper p{
@@ -55,8 +66,10 @@ a{
 .btn{
     padding:8px 24px;
     color:white;
+    display:inline-block;
     opacity: 0.8;
     border-radius: 4px;
+    text-align:center;
 }
 .btn:hover{
     opacity: 1;
@@ -76,9 +89,8 @@ header{
 }
 
 .logo{
-    color:ivory;
+   
     width:124px;
-    font-size: 30px;
     margin-top:20px ;
 }
 
@@ -88,23 +100,33 @@ header{
 
 .header-right{
     float:right;
-    background-color: rgba(255, 255, 255, 0.3);
-    transition:all 0.5s;
+    margin-top: 25px;
 }
 
 .header-right:hover{
     background-color: rgba(255, 255, 255, 0.5);
 }
 .header-right a{
-    line-height:80px;
+    line-height:65px;
     padding:0 25px;
     color:white;
     display:block;
+    float:left;
+    transition:all 0.5s;
 }
+.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    /* displayをnoneに指定してください */
+    display:none;
+  }
 
 .lesson-wrapper{
-    height:500px;
     padding-bottom:80px;
+    padding-left: 5%;
+    padding-right: 5%;
     background-color:#f7f7f7 ;
     text-align:center;
 }
@@ -130,7 +152,7 @@ header{
 
 .lesson-icon p{
     position:absolute;
-    top:80px;
+    top:44%;
     width:100%;
     color:white;
 }
