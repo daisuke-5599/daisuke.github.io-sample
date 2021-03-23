@@ -96,18 +96,27 @@ header{
 
 .header-left{
     float:left;
+    color:white;
 }
 
 .header-right{
     float:right;
-    margin-right: 25px;
+    margin-top: 5px;
 }
 
-.header-right:hover{
+.lesson-1:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.new:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.login:hover{
     background-color: rgba(255, 255, 255, 0.5);
 }
 .header-right a{
-    line-height:65px;
+    line-height:60px;
     padding:0 25px;
     color:white;
     display:block;
@@ -118,8 +127,7 @@ header{
     color: white;
     float: right;
     font-size: 25px;
-    padding: 21px 0;
-    /* displayをnoneに指定してください */
+    padding: 25px 0;
     display:none;
   }
 
