@@ -128,7 +128,7 @@ header{
     float: right;
     font-size: 25px;
     padding: 25px 0;
-    display:none;
+    display:none!important;
   }
 
 .lesson-wrapper{
